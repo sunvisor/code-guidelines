@@ -1,6 +1,5 @@
 #読みやすい JavaScript を書く
 
-The importance of writing "readable" JavaScript simply cannot be overstated.
 「読みやすい」JavaScript を書くことの重要性は、単に誇張することはできません。
 理解しやすいコードを書くことで、あなたのチームのメンバーや将来のあなた自身に対して、親切にしましょう。
 
@@ -159,7 +158,6 @@ Sencha では、その変数が特別であることを明確に視覚的に示�
         };
     };
 
-cache `this` using the local variable `me` as it will make the minified source smaller.
 もう一つの重要な点は、`this` はキーワードであり圧縮できないということです。
 Sencha フレームワークでは、我々は「4のルール」を守ります。
 特定のスコープ内で、`this` が 4回以上参照されたら、`this` をローカル変数 `me` でキャッシュします。そうするとミニファイされるソースをより小さくできます。
@@ -235,10 +233,6 @@ Internet Explorer の古いバージョンで動作しないからです。
 
 ### <a name="Documentation" />文書化
 
-System-wide documentation is vital to developing large codebases. Using tools like 
-[JSDuck](https://github.com/senchalabs/jsduck)
-it is easy to build an API 
-reference for your codebase, making it significantly easier for your team (and others) to digest.
 システム全体の文書化は、大きなコードベースを開発する際にきわめて重要です。
 [JSDuck](https://github.com/senchalabs/jsduck)
 のようなツールを使うと、コードベースの API リファレンスを簡単に作ることができます。
@@ -268,7 +262,6 @@ JSDuck は、 JavaDoc スタイルのブロックコメントを追跡します�
 
 ### <a name="Inline_Comments" />インライン コメント
 
-Many developers feel that code ought to be "self-documenting" and therefore inline comments are to be avoided. 
 多くの開発者が、コードは「自己文書化」であるべきと感じていて、それによってインライン・コメントはつけるべきでないと感じています。
 Sencha は、その思考法の頑固さに必ずしも同意できません。
 我々は、コードの意図または目的が完全に明白でないときには、常にコメントをするものだと思っています。しかし、コードそのものは論理的に追いかける際に十分明白であるようにしましょう。
@@ -350,7 +343,6 @@ Sencha は、その思考法の頑固さに必ずしも同意できません。
 
 ## <a name="Documenting_Overrides" />文書化のオーバーライド
 
-In cases where you need to override default or inherited functionality, both inline and block comments are actively encouraged so that the changes are perfectly clear.
 デフォルトをオーバーライドする必要があるか、機能を継承した場合、その変更を完全に明白にするために、インライン コメントとブロック コメントを積極的に活用しましょう。
 
     // EXTJS-12345 のバグのオーバーライド
@@ -383,9 +375,7 @@ In cases where you need to override default or inherited functionality, both inl
 
 ## <a name="Spacing_White_Space" />インデントや空白
 
-Many developers have strong opinions on the topic of tabs-vs-spaces for spacing.
 多くの開発者には、スペースをあける時のタブとスペースの話題に関する断固たる意見があるものです。
-Sencha advocates the use of four spaces in our own code because tab sizes are unpredictable;
 タブのサイズは予測できないので、Sencha は自身のコードでは 4つのスペースを利用することにしています。
 読みやすいコードを保証することができる唯一の方法は、スペースの利用を実施することです。
 最終的な目的は一貫性があることだけなので、どちらを選ぼうともそれらを交ぜてはいけません。
