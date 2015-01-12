@@ -1,4 +1,3 @@
-#Sencha's Guide to JavaScript Style and Best Practices
 #JavaScript のスタイルとベストプラクティスに関する Sencha のガイド
 
 次のドキュメントは、JavaScript と HTML5 で企業アプリケーションを構築するためのベストプラクティスと推奨される手法を記述しています。
