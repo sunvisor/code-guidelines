@@ -8,7 +8,6 @@
 
 ##ミッションステートメント
 
-Sencha firmly believes that high quality JavaScript is above all else consistent, and addresses four main pillars:
 高品質な JavaScript というものは、とりわけて首尾一貫していて、次の四つの柱に取り組んでいると Sencha は固く信じています。
 
   - **読みやすさ:** JavaScript コードはクリアで簡単に一目見て簡単に理解できなければなりません
