@@ -4,15 +4,15 @@
 は、よくある問題が発生する可能性を減らすよう努めるソフトウェア構築アプローチです。
 JavaScript 構文は、おかしな動きをしたり微妙な動きをする場合があるので、防御的プログラミング思考法を採用することで、大きなコードベースでの多くの実行時エラーを防ぐことができます。
 
- - [Removing Lint](#Removing_Lint)
- - [Using Semicolons](#Semicolons)
- - [Trailing Commas](#Trailing_Commas)
- - [Brackets and Blocks](#Brackets_Blocks)
- - [Equality](#Equality)
- - [Prototypes](#Prototypes)
- - [Functions](#Functions)
+ - [Lintをかける](#Removing_Lint)
+ - [セミコロンを使う](#Semicolons)
+ - [末尾のカンマ](#Trailing_Commas)
+ - [中括弧とブロック](#Brackets_Blocks)
+ - [比較演算子](#Equality)
+ - [プロトタイプ](#Prototypes)
+ - [関数](#Functions)
 
-## <a name="Removing_Lint" />Removing Lint
+## <a name="Removing_Lint" />Lintをかける
 
 JavaScript の「lint」ツールはソースコードを読んで、よくあるミスを特定します。例えば関数内の複数の `var` 指令や、文法エラーなどです。
 これらのミスは不要なものと見なされ、削除するか再構成することになります。
@@ -74,7 +74,6 @@ IDE 統合は、エラーについてだけ開発者に警告します。
 従って、ベストプラクティスとしては、Sencha では開発者にこれらを使うことを禁じています。
 
 
-On a related note, some developers prefer to use leading commas to avoid this problem.
 これに関連して、開発者の中にはこの問題を回避するために、カンマを先頭につけることをします。
 Sencha はその解決法が問題を適切に解決するとは思えません。コードの読みやすさを下げるものだと信じています。
 
@@ -127,7 +126,7 @@ Sencha はその解決法が問題を適切に解決するとは思えません�
         return normalPayAmount();
     };  
     
-## <a name="Equality" />Equality
+## <a name="Equality" />比較演算子
 
 特別な理由が無い限り、`==` や `!=` オペレータではなく、`===` や `!==` を使いましょう。
 
