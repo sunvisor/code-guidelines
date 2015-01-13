@@ -114,7 +114,6 @@ Sencha は各変数の割り当てを新しい行で宣言することを推奨�
         this.hidden = config.hidden || false;
     }
 
-In more complex scenarios, it may make sense to use conditional expressions or utility methods to perform the validations:
 より複雑なシチュエーションでは、バリデーションを実行する、条件式やユーティリティ メソッドを使うのがいいでしょう。
 
     function init(config) {
