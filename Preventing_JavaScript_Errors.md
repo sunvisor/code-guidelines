@@ -1,4 +1,4 @@
-#JavaScript エラーを回避する
+# JavaScript エラーを回避する
 
 [防御的プログラミング](http://en.wikipedia.org/wiki/Defensive_programming)
 は、よくある問題が発生する可能性を減らすよう努めるソフトウェア構築アプローチです。

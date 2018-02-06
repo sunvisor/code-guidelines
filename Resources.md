@@ -1,4 +1,4 @@
-#リソース
+# リソース
 
 このガイドの最初の着想は、Airbnb がまとめた、
 [素晴らしいガイド](https://github.com/airbnb/javascript)
